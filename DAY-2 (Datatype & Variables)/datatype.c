@@ -9,7 +9,7 @@
 // datatype formate specifiers:
 /*
 1) int = "%d";
-2) float = "%f";
+2) float = "%f"; or %.2f
 3) char = "%c", string = "%s"
 4) double = "%lf", "%.2f"
 */
@@ -19,7 +19,7 @@
 datatype variable_name = 566; // asg.
 int num = r
 roll_num = r
-table_num_1 = r
+table_num1 = r
 2num = w
 roll number = w
 student-name = w

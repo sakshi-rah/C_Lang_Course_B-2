@@ -8,5 +8,6 @@ int main(){
     printf("Name: Sakshi Rahangdale\n");
     printf("Age: 26\n");
     printf("Position: C Programmer\n");
-
+    
+return 0;
 }
