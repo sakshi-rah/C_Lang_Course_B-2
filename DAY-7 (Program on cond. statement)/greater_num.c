@@ -24,6 +24,9 @@ int main(){
     // else
     //     printf("Greater Number: %d\n", c); // c = 9
     
+
+
+
 /* 3. WAP to take three integers from the user and print the greatest. 
 Handle below Scenarios: ● All values are 0 → print "Number can not be zero, try again!" 
 ● Values are negative → print "Number can not be negative, Enter positive number." */
@@ -46,6 +49,13 @@ int a, b, c;
         }
     }
 
+    printf("\n\n\n\n");
+    int p=5, q= 10;
+
+    if(p>q)
+        printf("%d is greater number than q number", p);
+    else
+        printf("%d is greater number than p number", q);
 
 return 0;
 }
