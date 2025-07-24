@@ -18,7 +18,7 @@ printf("your name: %s\n", name);
 
 int length = strlen(name);
 printf("Length of String: %d\n", length );
-printf("Length of name string: %lu\n", strlen(name));
+printf("Length of name string: %d\n", strlen(name));
 
 
 return 0;
