@@ -1,6 +1,6 @@
 /* 2) while loop: Used when the number of iterations is not known.
 //initialization;
-while(condition) {
+while(condition){
     // code to execute
     //increment;
 } */
@@ -9,11 +9,18 @@ while(condition) {
 
 int main(){
 // print 1 to 10 numbers
-// int i=1;
-// while(i<=10){
-//     printf("Number: %d\n", i);
-//     i++;
-// }
+int i=1;
+while(i<=10){
+    printf("Number: %d\n", i);// 1, 2, 3, 4,5, 10
+    i++; 
+}
+
+// Print reverse order number
+int a=10;
+while(a>=1){ // 10>=1 = t, 9>=1 = t, 1>=1=t, 0>=1=f
+    printf("\n%d\n", a); // 10 9 .....1
+    a--; // a=9 , a=8..... a=0
+}
 
 //Print even and odd number using while loop = HW
 
