@@ -21,7 +21,6 @@ void = no return value
 printf(), scanf(), strlen()
 */
 
-
 // 1. Function with no aug and no return value
 
 /*void demo(){
